@@ -1,8 +1,8 @@
 :root {
-    --header-footer-background-color: #404040;
-    --lightskyblue: lightskyblue;
-    --lightgray: lightgray;
-    --about-me-work-border: #333366;
+    --header-footer-background-color: #090433;
+    --lightskyblue: #84eaeb;
+    --lightgray: #fcfcff;
+    --about-me-work-border: #100654;
     --rgba-border-color-opacity: rgba(135, 206, 250, 0.8);
 }
 * {
@@ -13,7 +13,7 @@
 
 /* Start of Semantic code */
 
-/* Smoth Scrolling effect */
+/* Smooth Scrolling effect */
 html {
   scroll-behavior: smooth;
 }
