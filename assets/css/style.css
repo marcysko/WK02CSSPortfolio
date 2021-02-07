@@ -121,7 +121,7 @@ footer a {
 /* Start of hero section with background */
 .hero { /* Here section is a flex container */
   height: 300px;
-  background-image: url("../images/Toronto-night.jpg");
+  background-image: url("../images/bluebrick.jpg");
   border-bottom-left-radius: 30px 30px; /* border-radious bottom sides with bottom border changed also*/
   border-bottom-right-radius: 30px 30px;
   background-size: cover; /* Image will cover the background */
@@ -132,6 +132,7 @@ footer a {
   flex-wrap: wrap;
   flex-direction: row; /* Row type rather than column type to showcase usage */
   align-items: flex-end;
+  opacity: 1.0;
 }
 
 .hero-subtitle { /* Styling to the subtitle the Hero container */
@@ -157,11 +158,12 @@ footer a {
   grid-template-columns: 1fr repeat(3, 2fr);  /* Create a 4X4 grid with the first column smaller than the others 3 */
   grid-template-rows: repeat(4, 1fr); /* 4 rows of equal size */
   gap: 10px 10px; /* Gap on x and y grid */
+  
 }
 
 .about-me-item.about-me-title { /* Cell declarations for the title of the container */
   padding-top: 0px;
-  font-size: 35px;
+  font-size: 45px;
   grid-row: 1 / span 4;
   padding-right: 10px;
   text-align: right;
@@ -225,63 +227,7 @@ footer a {
 .work-item-project.run-buddy {
   grid-column: 3 /span 1;
   grid-row: 7 / span 3;
-  background-image: url("../images/run-buddy-project.JPG");
-  background-size: cover;
-  display: flex; /*Flex required to move the element as flex */
-  align-items: flex-end; /*Allow text to be at center of grid*/
-  padding-left: 0px;
-  padding-bottom: 15px;
-  text-align: left;
-  border: .25vw solid var(--rgba-border-color-opacity);
-}
-
-.work-item-project.password-generator {
-  grid-column: 2 / span 1;
-  grid-row: 7 / span 3; 
-  /* Royalty free image */
-  background-image: url("../images/password-generator.JPG");
-  background-size: cover;
-  /* Allow the background image to align */
-  display: flex; /*Flex required to move the element as flex */
-  align-items: flex-end; /*Allow text to be at center of grid*/
-  padding-left: 0px;
-  padding-bottom: 15px;
-  text-align: left;
-  border: .25vw solid var(--rgba-border-color-opacity);
-}
-
-.work-item-project.web-api-code-quiz {
-  grid-column: 4 / span 1;
-  grid-row: 1 / span 3;
-  /* Royalty free image */
-  background-image: url("../images/web-api-code-quiz.JPG");
-  background-size: 300px 200px, cover;
-  display: flex; /*Flex required to move the element as flex */
-  align-items: flex-end; /*Allow text to be at center of grid*/
-  padding-left: 0px;
-  padding-bottom: 15px;
-  text-align: left;
-  border: .25vw solid var(--rgba-border-color-opacity);
-}
-
-.work-item-project.work-day-scheduler {
-  grid-column: 4 / span 1;
-  grid-row: 4 / span 3;
-  /* Royalty free image */
-  background-image: url("../images/work-day-scheduler.JPG");
-  background-size: cover;
-  display: flex; /*Flex required to move the element as flex */
-  align-items: flex-end; /*Allow text to be at center of grid*/
-  padding-left: 0px;
-  padding-bottom: 15px;
-  text-align: left;
-  border: .25vw solid var(--rgba-border-color-opacity);
-}
-
-.work-item-project.project01-group07 {
-  grid-column: 4 /span 1;
-  grid-row: 7 / span 3;
-  background-image: url("../images/project1-group07.JPG");
+  background-image: url("../images/runbuddypic.png");
   background-size: cover;
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/

@@ -48,8 +48,9 @@
     <article>  
         <div id="about-me" class="about-me-wrapper"> 
             <div class="about-me-grid-container"> 
-                <div class="about-me-item about-me-title"> 
-                    <p> About me </p>
+                <div class="about-me-item about-me-title">
+                    <img src="assets/images/marcia.png" alt="Marcia genuinely smiling" class="profile-img" width="175" height="250">
+                <p> About me </p>
                 </div>
                 <div class="about-me-item p1"></div>
             <p>
@@ -71,8 +72,8 @@
     <!-- Grid -->
     <section class="content">
         <div class="grid">
-            <!-- Run Buddy -->
-            <div onclick="projectClicked('challenge-1-refactor')" alt="Image Displaying the Horiseon landing Page" title="Horiseon landing Page" target="_blank" style="cursor: pointer;" class="work-item-project challenge-1-refactor">
+            
+            <div onclick="projectClicked('RefactorCode')" alt="Image Displaying the Horiseon landing Page" title="Horiseon landing Page" target="_blank" style="cursor: pointer;" class="work-item-project RefactorCode">
                 <span class="span-background"> <!-- Span added to contain h3, lower text and wrapped background -->
                     <h3>Horiseon Services</h3>
                     <span class="lower-text">HTML/CSS</span> <!-- A small class to apply for all grid lower text -->
@@ -85,6 +86,15 @@
                     <span class="lower-text">HTML/CSS</span>
                 </span>
             </div>
+            <div class="work-item-project ghost-item">
+                <span class="span-background">
+                    <h3>Coming soon!</h3>
+                    <span class="lower-text">TBD</span>
+                </span>
+            </div>
+        </div>
+    </div>
+</article>
             
             
     </script>
@@ -114,25 +124,16 @@
     function projectClicked(input) { 
         var input = input;
 
-        if (input == "challenge-1-refactor") { /* If else statement to determine url to go */
+        if (input == "RefactorCode") { /* If else statement to determine url to go */
             /* Javascript window.class to open page */
-            window.open("https://esroleo.github.io/html-css-git-challenge1-code-refactor/");
+            window.open("https://marcysko.github.io/RefactorCode/");
         } else if (input == "run-buddy") {
-            window.open("https://esroleo.github.io/run-buddy/");
-        } else if (input == 'password-generator') {
-            window.open("https://esroleo.github.io/javascript-challenge-password-generator/");
-        } else if (input == 'web-api-code-quiz') {
-            window.open("https://esroleo.github.io/web-api-challenge-code-quiz/");
-        }  else if (input == 'work-day-scheduler') {
-            window.open("https://esroleo.github.io/work-day-scheduler/");
-        } else if (input == 'project01-group07') {
-            window.open("https://uot-project1-group07.github.io/project1-group07/");
+            window.open("https://marcysko.github.io/run-buddy/");
         } else {
-            return true; /* Return true - No used as of now but semanticly correct */
+            return true; 
         }
     };
         
 </script>
-
 </body>
 </html>
