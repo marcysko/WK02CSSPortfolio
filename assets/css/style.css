@@ -1,16 +1,17 @@
-:root {
-    --header-footer-background-color: #090433;
-    --lightskyblue: #84eaeb;
-    --lightgray: #fcfcff;
-    --about-me-work-border: #100654;
-    --rgba-border-color-opacity: rgba(135, 206, 250, 0.8);
-}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --header-footer-background-color: #090433;
+    --lightskyblue: lightskyblue;
+    --lightgray: lightgray;
+    --about-me-work-border: #100654;
+    --rgba-border-color-opacity: rgba(135, 206, 250, 0.8);
+}
 /* Start of Semantic code */
 
 /* Smooth Scrolling effect */
@@ -65,7 +66,7 @@ header a {
 
 /* Start of body code */
 body{
-  background-color: var(--lightgray); /* Apply background to all of the body of the page */
+  background-color: var(white); /* Apply background to all of the body of the page */
   /* googleapis font family Karla */
   font-family: 'Martel', serif;
 }
@@ -147,7 +148,6 @@ footer a {
 .about-me-wrapper { /* Flex wrapper */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   justify-content: center;
   margin-top: 50px;
 }
@@ -163,7 +163,7 @@ footer a {
 
 .about-me-item.about-me-title { /* Cell declarations for the title of the container */
   padding-top: 0px;
-  font-size: 45px;
+  font-size: 35px;
   grid-row: 1 / span 4;
   padding-right: 10px;
   text-align: right;
@@ -214,7 +214,7 @@ footer a {
 .work-item-project.challenge-1-refactor { /* Grid cells with embedded images */
   grid-column: 2 / span 2;
   grid-row: 1 / span 6;
-  background-image: url("../images/challeng-1-refactor-code-smaller.JPG");
+  background-image: url("../images/Horiseonpic.png");
   background-size: cover; /* Allows the image to autosie to cover the container */
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
@@ -249,7 +249,7 @@ footer a {
 .span-background { /* Apply background to any span with this class name */
   background-color: var(--lightskyblue);
   position: relative;
-  line-height: 1.5;
+  line-height: 3.0;
   padding-left: 8px;
   padding-right: 8px;
   border-radius: 5%;
@@ -270,7 +270,7 @@ footer a {
 }
 
 .span-background.lower-text {
-  font-size: x-small;
+  font-size: x-large;
 }
 /* End of span code */
 

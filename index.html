@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Martel:400,700" rel="stylesheet"> <!-- Font style from googleapis -->
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700|Khula" rel="stylesheet"> <!-- Font style from googleapis -->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Martel:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700|Khula" rel="stylesheet"> 
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Marcia Skousen</title>
 </head>
@@ -29,7 +29,7 @@
                     <a href="#contact-me">Contact Me</a>
                 </li>
                 <li> <!--placeholder for resume -->
-                    <a href="./798cddb4-695c-11eb-8b25-0cc47a792c0a_id_798cddb4-695c-11eb-8b25-0cc47a792c0a.html#">Resume</a>
+                    <a href="./placeholder#">Resume</a>
                 </li>
             </ul>
         </nav>
@@ -55,10 +55,9 @@
                 <div class="about-me-item p1"></div>
             <p>
                 I'm a graduate from Arizona State University and a current student in The Coding Bootcamp at the University of Arizona. I'm an Arizona native
-                residing in Phoenix, a life coach, and a world traveler.
+                residing in Phoenix, a life coach, and a world traveler. 🌵 🖥 🌏
             </p>
         </div>  
-    </div>
     </div> 
     </article>
 
@@ -73,7 +72,7 @@
     <section class="content">
         <div class="grid">
             
-            <div onclick="projectClicked('RefactorCode')" alt="Image Displaying the Horiseon landing Page" title="Horiseon landing Page" target="_blank" style="cursor: pointer;" class="work-item-project RefactorCode">
+            <div onclick="projectClicked('challenge-1-refactor')" alt="Image Displaying the Horiseon landing Page" title="Horiseon landing Page" target="_blank" style="cursor: pointer;" class="work-item-project challenge-1-refactor">
                 <span class="span-background"> <!-- Span added to contain h3, lower text and wrapped background -->
                     <h3>Horiseon Services</h3>
                     <span class="lower-text">HTML/CSS</span> <!-- A small class to apply for all grid lower text -->
@@ -86,18 +85,31 @@
                     <span class="lower-text">HTML/CSS</span>
                 </span>
             </div>
-            <div class="work-item-project ghost-item">
-                <span class="span-background">
-                    <h3>Coming soon!</h3>
-                    <span class="lower-text">TBD</span>
-                </span>
+
+             <div onclick="projectClicked('password-generator')" alt="Image Displaying the Password Generator landing Page" title="Password Generator landing page" style="cursor: pointer;" class="work-item-project password-generator">
+                    <span class="span-background">
+                        <h3>Password Generator</h3>
+                        <span class="lower-text">CSS/Javascript</span>
+                    </span>
+                </div>
+                <div onclick="projectClicked('web-api-code-quiz')" alt="Image Displaying the Web Api Code Quiz landing Page" title="Web Api Code Quiz landing page" style="cursor: pointer;" class="work-item-project web-api-code-quiz">
+                    <span class="span-background">
+                        <h3>Web API Code Quiz</h3>
+                        <span class="lower-text">Javascript/CSS/LocalStorage</span>
+                    </span>
+                </div>
+                <div onclick="projectClicked('work-day-scheduler')" alt="Image Displaying the Web Api Code Quiz landing Page" title="Web Api Code Quiz landing page" style="cursor: pointer;" class="work-item-project work-day-scheduler">
+                    <span class="span-background">
+                        <h3>Work Day Scheduler</h3>
+                        <span class="lower-text">Dynamic Javascript/Bootstrap</span>
+                    </span>
+                </div>
+               </section>
+                </div>
             </div>
         </div>
-    </div>
-</article>
-            
-            
-    </script>
+    </article>
+
 <!-- Footer content Grid-->
 <footer>
     <div id="contact-me" class="footer-wrapper"> <!-- Id's coming from the header nav and a flex wrapper -->
@@ -124,15 +136,21 @@
     function projectClicked(input) { 
         var input = input;
 
-        if (input == "RefactorCode") { /* If else statement to determine url to go */
-            /* Javascript window.class to open page */
+        if (input == "challenge-1-refactor") { /* If else statement to determine url to go */
+                /* Javascript window.class to open page */
             window.open("https://marcysko.github.io/RefactorCode/");
         } else if (input == "run-buddy") {
             window.open("https://marcysko.github.io/run-buddy/");
-        } else {
-            return true; 
-        }
-    };
+        } else if (input == 'password-generator') {
+                window.open("https://esroleo.github.io/javascript-challenge-password-generator/");
+            } else if (input == 'web-api-code-quiz') {
+                window.open("https://esroleo.github.io/web-api-challenge-code-quiz/");
+            }  else if (input == 'work-day-scheduler') {
+                window.open("https://esroleo.github.io/work-day-scheduler/");
+            } else {
+                return true; /* Return true - No used as of now but semanticly correct */
+            }
+        };
         
 </script>
 </body>
