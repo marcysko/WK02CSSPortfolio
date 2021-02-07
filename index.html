@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta charset="UTF-8" />
           <title>Marcia Skousen</title>
@@ -10,28 +9,26 @@
 <body>
     <!-- navigation -->
     <header>
-        <h1>
-            <a href="/">Marcia Skousen</a>
-        </h1>
+        <span class="span-background title"> <!-- Class for title background -->
+            <h1>Marcia Skousen</h1>
+        </span>
         <nav>
-            <!-- Unordered list element -->
-            <ul>
-                <!-- List item element -->
+            <ul class="nav-effects"> <!-- Header nav bar -->
                 <li>
-                    <!-- Anchor element -->
+                    <!-- Anchor elements -->
                     <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#work">Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#resume">Resume</a>
-                    </li>
-                </ul>
-         </nav>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <li> 
+                    <a href="./assets/images/MSResume.pdf" download>Resume</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Hero -->
@@ -46,7 +43,7 @@
     <!-- about me section -->   
         <section id="about-me" class="about-me">
             <h2>
-                about me
+                About Me
             </h2>
             <p>
                 I'm a graduate from Arizona State University and a current student in The Coding Bootcamp at the University of Arizona. I'm an Arizona native
@@ -57,7 +54,7 @@
      <!-- Work -->
          <section id="work" class="work">
             <div class="section-title">
-                <h2>work</h2>
+                <h2>Work</h2>
             </div>
     <!-- Grid -->
     <section class="content">
@@ -89,47 +86,27 @@
     </section>
 </section>
 
-<!-- Contact -->
-<section id="contact" class="contact">
-    <h2>contact</h2>
-    <div class="contact-info">
-        <a href="tel:602-326-4409">
-            📱 dial
-        </a>
-        <a href="mailto:marcias88@gmail.com">
-            📧 write
-        </a>
-        <a href="https://www.linkedin.com/in/marcia-skousen/" target="_blank">
-            <img src="assets/images/linkedin.png" alt="LinkedIn logo" height="25px">
-        </a>
-        <a href="https://github.com/marcysko" target="_blank">
-            <img src="assets/images/github.png" alt="GitHub logo" height="25px">
-        </a>
-    </div>
-</section>
 </main>
 
-
-        </section>
-
-
-    </main>
-
-
-
+<footer>
+    <div id="contact-me" class="footer-wrapper"> <!-- Id's coming from the header nav and a flex wrapper -->
+        <div class="footer-container"> <!-- footer container is a grid container -->
+            <!-- Each grid item has its own grid location achieved by creating one object/instance per class -->
+            <div class="footer-grid-item contact-me"> <!-- Each item is a grid item --> 
+                Contact Me
+            </div>
+            <div class="footer-grid-item phone">
+                <a href="tel:602-326-4409" class="nav-effects">602.326.4409</a>
+            </div>
+            <div class="footer-grid-item email"> 
+                <a href="mailto:marcias88@gmail.com">marcias88@gmail.com</a>
+            </div>
+            <div class="footer-grid-item git-hub"> 
+                <a href="https://github.com/esroleo/" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
-
-
-
-
-
-
-
-
-
-<!-- footer -->
-<footer>
-    <h2>❤️ Made with love by Marcia Skousen.</h2>
-</footer>
 </html>
