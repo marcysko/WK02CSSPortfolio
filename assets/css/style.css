@@ -240,7 +240,7 @@ footer a {
   grid-column: 2 / span 1;
   grid-row: 7 / span 3; 
   /* Royalty free image */
-  background-image: url("../images/password-generator.JPG");
+  background-color: fuchsia;
   background-size: cover;
   /* Allow the background image to align */
   display: flex; /*Flex required to move the element as flex */
@@ -255,7 +255,7 @@ footer a {
   grid-column: 4 / span 1;
   grid-row: 1 / span 3;
   /* Royalty free image */
-  background-image: url("../images/web-api-code-quiz.JPG");
+  background-color: darkblue;
   background-size: 300px 200px, cover;
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
@@ -269,7 +269,7 @@ footer a {
   grid-column: 4 / span 1;
   grid-row: 4 / span 3;
   /* Royalty free image */
-  background-image: url("../images/work-day-scheduler.JPG");
+  background-color: #fce138;
   background-size: cover;
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
@@ -282,7 +282,7 @@ footer a {
 .work-item-project.project01-group07 {
   grid-column: 4 /span 1;
   grid-row: 7 / span 3;
-  background-image: url("../images/project1-group07.JPG");
+  background-color: white;
   background-size: cover;
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
