@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -66,8 +65,7 @@ header a {
 
 /* Start of body code */
 body{
-  background-color: var(white); /* Apply background to all of the body of the page */
-  /* googleapis font family Karla */
+  background-color: var(--lightgray); /* Apply background to all of the body of the page */
   font-family: 'Martel', serif;
 }
 /* End of body code */
@@ -148,6 +146,7 @@ footer a {
 .about-me-wrapper { /* Flex wrapper */
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   justify-content: center;
   margin-top: 50px;
 }
@@ -237,6 +236,62 @@ footer a {
   border: .25vw solid var(--rgba-border-color-opacity);
 }
 
+.work-item-project.password-generator {
+  grid-column: 2 / span 1;
+  grid-row: 7 / span 3; 
+  /* Royalty free image */
+  background-image: url("../images/password-generator.JPG");
+  background-size: cover;
+  /* Allow the background image to align */
+  display: flex; /*Flex required to move the element as flex */
+  align-items: flex-end; /*Allow text to be at center of grid*/
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid var(--rgba-border-color-opacity);
+}
+
+.work-item-project.web-api-code-quiz {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 3;
+  /* Royalty free image */
+  background-image: url("../images/web-api-code-quiz.JPG");
+  background-size: 300px 200px, cover;
+  display: flex; /*Flex required to move the element as flex */
+  align-items: flex-end; /*Allow text to be at center of grid*/
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid var(--rgba-border-color-opacity);
+}
+
+.work-item-project.work-day-scheduler {
+  grid-column: 4 / span 1;
+  grid-row: 4 / span 3;
+  /* Royalty free image */
+  background-image: url("../images/work-day-scheduler.JPG");
+  background-size: cover;
+  display: flex; /*Flex required to move the element as flex */
+  align-items: flex-end; /*Allow text to be at center of grid*/
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid var(--rgba-border-color-opacity);
+}
+
+.work-item-project.project01-group07 {
+  grid-column: 4 /span 1;
+  grid-row: 7 / span 3;
+  background-image: url("../images/project1-group07.JPG");
+  background-size: cover;
+  display: flex; /*Flex required to move the element as flex */
+  align-items: flex-end; /*Allow text to be at center of grid*/
+  padding-left: 0px;
+  padding-bottom: 15px;
+  text-align: left;
+  border: .25vw solid var(--rgba-border-color-opacity);
+}
+
 .work-item-project.ghost-item {
   grid-column: 4 / span 1;
   /* Hide Text */
@@ -249,7 +304,7 @@ footer a {
 .span-background { /* Apply background to any span with this class name */
   background-color: var(--lightskyblue);
   position: relative;
-  line-height: 3.0;
+  line-height: 1.5;
   padding-left: 8px;
   padding-right: 8px;
   border-radius: 5%;
@@ -270,7 +325,7 @@ footer a {
 }
 
 .span-background.lower-text {
-  font-size: x-large;
+  font-size: x-small;
 }
 /* End of span code */
 
@@ -344,7 +399,7 @@ footer a {
     padding-right: 30px;
   }
 
-  .span-background.opacity{
+  .span-background.opacity {
     font-size: 25px;
   }
 
@@ -637,7 +692,7 @@ footer a {
   }
 
   p{
-    font-size:5vw;
+    font-size: 5vw;
   }
 
   footer a {
