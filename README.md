@@ -11,6 +11,7 @@ To introduce myself to potential employers looking for an exceptional candidate 
 * JavaScript
 
 ## Website
+https://marcysko.github.io/WK02CSSPortfolio/
 
 
 ## Contribution
