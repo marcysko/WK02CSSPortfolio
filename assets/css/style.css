@@ -240,7 +240,7 @@ footer a {
   grid-column: 2 / span 1;
   grid-row: 7 / span 3; 
   /* Royalty free image */
-  background-color: fuchsia;
+  background-image: url("../images/passwordimg.png");
   background-size: cover;
   /* Allow the background image to align */
   display: flex; /*Flex required to move the element as flex */
@@ -282,7 +282,7 @@ footer a {
 .work-item-project.project01-group07 {
   grid-column: 4 /span 1;
   grid-row: 7 / span 3;
-  background-color: white;
+  background-color: darkviolet;
   background-size: cover;
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
