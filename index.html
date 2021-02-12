@@ -49,7 +49,7 @@
         <div id="about-me" class="about-me-wrapper"> <!-- Id's coming from the header nav and a flex wrapper -->
             <div class="about-me-grid-container"> <!-- About me containter is a grid container -->
                 <div class="about-me-item about-me-title"> <!-- Each item is a grid item -->
-                     <p> About Me </p>
+                    <h3><p> About Me </p></h3>
                     <img src="assets/images/marcia.png" alt="Marcia genuinely smiling" class="profile-img" width="175" height="250">
                 </div>
                 <div class="about-me-item p1">
@@ -67,14 +67,14 @@
         <div id="work" class="work-wrapper"> <!-- Id's coming from the header nav and a flex wrapper -->
             <div class="work-grid-container"> <!-- Work projects container is a grid container -->
                 <div class="work-item work-title"> <!-- Each item is a grid item -->
-                    <p> Work </p>
+                   <h3><p> Work </p></h3>
                 </div>
                 <!-- Clickable grid link functionality achieved with a javascript function as anchor wrap did not work (tried) as intended for me -->
                 <!-- Alt, title (tooltip) and open in new tab functionality added-->
                 <!-- Each grid item has its own grid location achieved by creating one object/instance per class -->
                 <div onclick="projectClicked('challenge-1-refactor')" alt="Image Displaying the Horiseon landing Page" title="Horiseon landing Page" target="_blank" style="cursor: pointer;" class="work-item-project challenge-1-refactor">
                     <span class="span-background"> <!-- Span added to contain h3, lower text and wrapped background -->
-                        <h3>Horiseon Services</h3>
+                        <h2>Horiseon Services</h2>
                         <span class="lower-text">HTML/CSS</span> <!-- A small class to apply for all grid lower text -->
                     </span>
                 </div>
@@ -126,7 +126,7 @@
             <div class="footer-container"> <!-- footer container is a grid container -->
                 <!-- Each grid item has its own grid location achieved by creating one object/instance per class -->
                 <div class="footer-grid-item contact-me"> <!-- Each item is a grid item --> 
-                    Contact Me
+                   <h3>Contact Me</h3> 
                 </div>
                 <div class="footer-grid-item phone">
                     <a href="tel:602.326.4409" class="nav-effects">602-326-4409</a>
