@@ -16,4 +16,3 @@ To introduce myself to potential employers looking for an exceptional candidate 
 ## Contribution
 Made with ❤️ by [Marcy S.]
 
-### ©️2019 Run Buddy, Inc 
