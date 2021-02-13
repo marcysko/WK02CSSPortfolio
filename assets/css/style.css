@@ -255,7 +255,7 @@ footer a {
   grid-column: 4 / span 1;
   grid-row: 1 / span 3;
   /* Royalty free image */
-  background-color: darkblue;
+  background-image: url("../images/placeblacklab.png");
   background-size: 300px 200px, cover;
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
@@ -269,7 +269,7 @@ footer a {
   grid-column: 4 / span 1;
   grid-row: 4 / span 3;
   /* Royalty free image */
-  background-color: #fce138;
+  background-image: url("../images/colorguitars.png");
   background-size: cover;
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
@@ -282,7 +282,7 @@ footer a {
 .work-item-project.project01-group07 {
   grid-column: 4 /span 1;
   grid-row: 7 / span 3;
-  background-color: darkviolet;
+  background-image: url("../images/colorcoolcat.png");
   background-size: cover;
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
@@ -654,7 +654,7 @@ footer a {
   .work-item-project.ghost-item {
     grid-column: 1 /span 3;
     grid-row: 11 / span 1;
-    background-image: url("../images/pexels-luizclas-556665.jpg");
+    background-image: url("../images/images-1.jpg");
     background-size: cover;
     display: flex; /*Flex required to move the element as flex */
     align-items: center; /*Allow text to be at center of grid*/
