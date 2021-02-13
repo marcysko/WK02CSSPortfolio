@@ -3,7 +3,7 @@
 ## Purpose
 To introduce myself to potential employers looking for an exceptional candidate for an open position in Web Development. 
 
-[![Screen-Shot-2021-02-05-at-10-07-04-PM.png](https://i.postimg.cc/pVFVWzH1/Screen-Shot-2021-02-05-at-10-07-04-PM.png)](https://postimg.cc/6TBxz7Td)
+[![Screen-Shot-2021-02-06-at-12-50-04-PM.png](https://i.postimg.cc/J0HXWKj9/Screen-Shot-2021-02-06-at-12-50-04-PM.png)](https://postimg.cc/xNY8vvxR)
 
 ## Built With
 * HTML
