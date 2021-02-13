@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Purpose
-To introduce myself to potential employers looking for a skilled candidate for an open position in Web Development. 
+A portfolio with deployed web applications to introduce my skills and talents to employers looking to fill a position. 
 
 [![Screen-Shot-2021-02-12-at-4-07-23-PM.png](https://i.postimg.cc/d1P3yvCS/Screen-Shot-2021-02-12-at-4-07-23-PM.png)](https://postimg.cc/f3CDGGBx)
 
