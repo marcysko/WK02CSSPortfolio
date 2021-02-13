@@ -15,5 +15,5 @@ https://marcysko.github.io/WK02CSSPortfolio/
 
 
 ## Contribution
-Made with ❤️ by [Marcy S.]
+Made with ❤️ by Marcy S.
 
