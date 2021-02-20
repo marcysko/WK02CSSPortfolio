@@ -241,7 +241,7 @@ footer a {
   grid-row: 7 / span 3; 
   /* Royalty free image */
   background-image: url("../images/passwordimg.png");
-  background-size: cover;
+  background-size: contain;
   /* Allow the background image to align */
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
@@ -255,8 +255,8 @@ footer a {
   grid-column: 4 / span 1;
   grid-row: 1 / span 3;
   /* Royalty free image */
-  background-image: url("../images/placeblacklab.png");
-  background-size: 300px 200px, cover;
+  background-image: url("../images/greenlong.png");
+  background-size: cover;
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
   padding-left: 0px;
