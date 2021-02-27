@@ -268,9 +268,8 @@ footer a {
 .work-item-project.work-day-scheduler {
   grid-column: 4 / span 1;
   grid-row: 4 / span 3;
-  /* Royalty free image */
-  background-image: url("../images/colorguitars.png");
-  background-size: cover;
+  background-image: url("../images/workdayplus.png");
+  background-size: 100%;
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
   padding-left: 0px;
