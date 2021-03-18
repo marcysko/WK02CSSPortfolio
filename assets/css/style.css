@@ -281,7 +281,7 @@ footer a {
 .work-item-project.project01-group07 {
   grid-column: 4 /span 1;
   grid-row: 7 / span 3;
-  background-image: url("../images/colorcoolcat.png");
+  background-image: url("../images/tattooimg.png");
   background-size: cover;
   display: flex; /*Flex required to move the element as flex */
   align-items: flex-end; /*Allow text to be at center of grid*/
